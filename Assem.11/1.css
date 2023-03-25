@@ -1,0 +1,85 @@
+.text-img-about-me{
+    display: flex;
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(52, 51, 51);
+    
+}
+.lef-about-me{
+    width: 50%;
+    height: 1200px;
+    /* background-image: url(HD-wallpaper-amoled-abstract-black-dark.jpg); */
+}
+.right-about-me{
+    width: 50%;
+    height: 1200px;
+   
+}
+.img-about-me{
+    width: 100%;
+    height: 1200px;
+    /* border: 1px solid white; */
+}
+.p1-abot-me{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 150px;
+    font-family: serif;
+}
+.h1-about-me{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.p1-abot-me1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+    font-family: serif;
+}
+@media screen and (max-width: 1200px){
+    .text-img-about-me{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 1200px;
+        background-color: rgb(52, 51, 51);
+        
+    }
+    .lef-about-me{
+        width: 100%;
+        height: 1200px;
+        /* background-image: url(HD-wallpaper-amoled-abstract-black-dark.jpg); */
+    }
+    .right-about-me{
+        width: 100%;
+        height: 1200px;
+       
+    }
+    .img-about-me{
+        width: 100%;
+        height: 1200px;
+        border: 1px solid white;
+    }
+    .p1-abot-me{
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        margin-top: 150px;
+        font-family: serif;
+    }
+    .h1-about-me{
+        color: white;
+        text-align: center;
+        font-size: 60px;
+    }
+    .p1-abot-me1{
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        margin-top: 30px;
+        font-family: serif;
+    }
+}
